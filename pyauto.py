@@ -1,5 +1,6 @@
-import pyautogui
 import time
-string_input=input("Enter what u like to type in next line :\n")
+import pyautogui
+str=input("Enter the file location :")
+f = open(str, "r")
 time.sleep(10)
-pyautogui.write(string_input)
+pyautogui.write((f.read()))
