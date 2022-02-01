@@ -17,7 +17,7 @@ lbl.place(x=150, y=50)
 text_area = scrolledtext.ScrolledText(wrap=tk.WORD,width=40, height=8)
   
 text_area.place(x=100, y=190,width=600,height=500)
-window.title('Simplepage
+window.title('Simplepage')
 window.configure(bg='#347DA6')
 window.geometry("800x800+100+100")
 
